@@ -8,7 +8,7 @@ class Logger:
         self.transaction_count += 1
         self.daily_sales += order.price
         
-        log_string = f'\n {order.name} was purchased at location {store_number} for {order.price} | Total: ${self.daily_sales}'
+        log_string = f'{order.name} was purchased at location {store_number} for ${order.price} | Total: ${self.daily_sales} \n'
         
         log_file = open('log.txt', 'a')
         log_file.write(log_string)

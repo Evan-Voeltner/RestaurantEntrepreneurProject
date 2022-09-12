@@ -6,7 +6,7 @@ class Franchise:
         self.location_number = location_number
 
     def place_order(self):
-        print('What would you like to order?')
+        print(f'What would you like to order from location {self.location_number}?')
         print('Type 1 for Pizza, 2 for Pasta, 3 for Salad')
         user_input = input()
         
