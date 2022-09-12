@@ -1,6 +1,6 @@
 from pizza import Pizza
 from pasta import Pasta
-from salad import Salad
+from bangbang import Salad
 
 class OrderFactory:
     def __init__(self):

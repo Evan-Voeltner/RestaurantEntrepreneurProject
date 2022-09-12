@@ -1,9 +1,0 @@
-Pizza was purchased at location 1 for $15 | Total: $15 
-Pizza was purchased at location 1 for $15 | Total: $30 
-Pizza was purchased at location 1 for $15 | Total: $45 
-Pizza was purchased at location 2 for $15 | Total: $60 
-Pizza was purchased at location 2 for $15 | Total: $75 
-Pizza was purchased at location 2 for $15 | Total: $90 
-Pizza was purchased at location 3 for $15 | Total: $105 
-Pizza was purchased at location 3 for $15 | Total: $120 
-Pizza was purchased at location 3 for $15 | Total: $135 
