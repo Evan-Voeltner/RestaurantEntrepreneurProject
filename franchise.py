@@ -2,8 +2,8 @@ from logger import file_logger
 from order_factory import OrderFactory
 
 class Franchise:
-    def __init__(self):
-        self.location_number = 0
+    def __init__(self, location_number):
+        self.location_number = location_number
 
     def place_order(self):
         print('What would you like to order?')
