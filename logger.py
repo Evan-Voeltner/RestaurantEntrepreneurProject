@@ -15,9 +15,7 @@ class Logger:
             self.daily_sales += order.price
         self.transaction_count += 1
         log_file.close()
-
         log_string = f'{order.name} was purchased at location {store_number} for ${order.price} | Total: ${self.daily_sales} \n'
-        
         log_file = open('log.txt', 'a')
         log_file.write(log_string)
         log_file.close()
